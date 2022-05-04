@@ -1,0 +1,26 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="E:/Diplom_3/Apple Harvest/img/fox.png" transparentColor="">
+ <animation title="walk" delay="100">
+  <cut w="75" x="17" y="5" h="113" row="1" col="1"/>
+  <cut w="72" x="106" y="5" h="113" row="1" col="1"/>
+  <cut w="72" x="192" y="5.5" h="113" row="1" col="1"/>
+ </animation>
+ <animation title="jump" delay="100">
+  <cut w="71" x="193" y="6" h="113" row="1" col="1"/>
+  <cut w="85" x="267" y="6.5" h="102" row="1" col="1"/>
+  <cut w="80" x="356.5" y="1.5" h="89" row="1" col="1"/>
+  <cut w="83" x="442" y="7" h="101" row="1" col="1"/>
+  <cut w="71" x="193" y="6" h="113" row="1" col="1"/>
+ </animation>
+ <animation title="hit" delay="100">
+  <cut w="69" x="109" y="6" h="111" row="1" col="1"/>
+  <cut w="71" x="531" y="6.5" h="111" row="1" col="1"/>
+ </animation>
+ <animation title="stay" delay="100">
+  <cut w="71" x="107" y="6" h="111" row="1" col="1"/>
+ </animation>
+ <animation title="shoot" delay="100">
+  <cut w="71" x="617" y="6.5" h="111" row="1" col="1"/>
+  <cut w="86" x="716" y="6" h="111" row="1" col="1"/>
+ </animation>
+</sprites>

@@ -1,0 +1,11 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="wolf.png" transparentColor="">
+ <animation title="move" delay="150">
+  <cut w="83" x="102.75" y="14.25" h="94" row="1" col="1"/>
+  <cut w="91" x="4.5" y="15" h="93" row="1" col="1"/>
+ </animation>
+ <animation title="dead" delay="150">
+  <cut w="105" x="187" y="15" h="94" row="1" col="1"/>
+  <cut w="105" x="299" y="15.5" h="94" row="1" col="1"/>
+ </animation>
+</sprites>

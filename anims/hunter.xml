@@ -1,0 +1,15 @@
+<!DOCTYPE SpriteDecomposer>
+<sprites image="hunter.png" transparentColor="">
+ <animation title="move" delay="250">
+  <cut w="63" x="105" y="0" h="140" row="1" col="1"/>
+  <cut w="58" x="186" y="0.5" h="140" row="1" col="1"/>
+  <cut w="63" x="261" y="0.5" h="140" row="1" col="1"/>
+ </animation>
+ <animation title="dead" delay="150">
+  <cut w="73" x="341" y="0" h="140" row="1" col="1"/>
+  <cut w="73" x="430" y="0" h="140" row="1" col="1"/>
+ </animation>
+ <animation title="stop" delay="500">
+  <cut w="73" x="16" y="0" h="140" row="1" col="1"/>
+ </animation>
+</sprites>
